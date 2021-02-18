@@ -1,0 +1,25 @@
+{
+  "name": "@y2zz/ip-parse",
+  "version": "0.1.0",
+  "description": "获取IP及运营商信息",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y2zz-info/ip-parse.git"
+  },
+  "keywords": [
+    "y2zz",
+    "ip",
+    "parse"
+  ],
+  "author": "Y2zz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y2zz-info/ip-parse/issues"
+  },
+  "homepage": "https://github.com/y2zz-info/ip-parse#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
