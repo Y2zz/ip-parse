@@ -1,6 +1,6 @@
 {
   "name": "@y2zz/ip-parse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "获取IP及运营商信息",
   "main": "index.js",
   "scripts": {},
