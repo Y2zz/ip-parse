@@ -5,7 +5,6 @@ const ipParse = () => {
     http
       .get("http://myip.ipip.net/")
       .then((response) => {
-
         // 当前 IP：0.0.0.0  来自于：中国 湖南 长沙  电信
         if (response.data.length === 0) {
           reject(null);
@@ -26,6 +25,12 @@ const ipParse = () => {
           district: c2[3],
           isp: isp,
         };
+
+        for (let item in result) {
+          if (result[item]) {
+            result[item] = result[item].trim();
+          }
+        }
 
         resolve(result);
       })
