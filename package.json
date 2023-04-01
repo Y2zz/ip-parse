@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/y2zz-info/ip-parse.git"
+    "url": "git+https://github.com/y2zz/ip-parse.git"
   },
   "keywords": [
     "y2zz",
@@ -16,9 +16,9 @@
   "author": "Y2zz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/y2zz-info/ip-parse/issues"
+    "url": "https://github.com/y2zz/ip-parse/issues"
   },
-  "homepage": "https://github.com/y2zz-info/ip-parse#readme",
+  "homepage": "https://github.com/y2zz/ip-parse#readme",
   "dependencies": {
     "axios": "^0.21.1"
   }
